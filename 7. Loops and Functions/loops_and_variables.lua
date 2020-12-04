@@ -18,7 +18,7 @@ while num_enemies < 1000 do
     local enemy_x = math.random(0, 800)
     local enemy_y = math.random(0, 600)
 
-    if (player_x == enemy_x or player_y == enemy_y) then
+    if (player_x == enemy_x and player_y == enemy_y) then
         -- TODO: Error - enemy cannot be in same position as player
         print("Enemy and player position clashed!")
     else
