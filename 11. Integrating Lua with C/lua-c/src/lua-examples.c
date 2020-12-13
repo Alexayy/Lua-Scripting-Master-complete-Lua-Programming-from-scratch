@@ -174,13 +174,13 @@ void lua_example_table(void) {
     lua_close(L);
 }
 
-int main(int argc, char *argv[]) {
+//int main(int argc, char *argv[]) {
 //    lua_example_dofile()
 //    lua_example_getvar();
 //    lua_example_stack();
 //    lua_example_call_lua_function();
 //    lua_example_call_c_function();
 //    lua_example_userdata();
-    lua_example_table();
-    return 0;
-}
+//    lua_example_table();
+//    return 0;
+//}
